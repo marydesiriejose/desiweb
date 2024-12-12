@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Desi's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FFD8E4, #FFE6ED, #FFF2F6, #FFFFFF);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        header a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        header a:hover {
+            color: #f07aa5;
+        }
+
+        .gallery-section {
+            padding: 40px 20px;
+        }
+
+        .gallery-section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 0 10px;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            border-radius: 16px;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(255, 69, 208, 0.31);
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffe6ed;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-links a img {
+            width: 40px;
+            height: 40px;
+            border-radius: 20%;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a img:hover {
+            transform: scale(1.1);
+        }
+
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .feedback-form input[type="text"],
+        .feedback-form textarea {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #f07aa5;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .feedback-form button:hover {
+            background-color: #d3698f;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><strong>DESI</strong></div>
+
+            <nav>
+                <a href="Profile.html">About Me</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="services.html">Services</a>
+                <a href="ExtraLife.html">My Life</a>
+            </nav>
+        </header>
+
+        <div class="gallery-section">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="../images/462583175_1973264789806937_4778435178444352081_n (1).jpg">
+                <img src="../images/alita.png">
+                <img src="../images/466982601_1117225906531633_6701840633975729208_n.jpg">
+                <img src="../images/sizzler.png">
+                <img src="../images/280207538_366090222156688_1839858771891294048_n.jpg">
+                <img src="../images/DYSON (2).png">
+                <img src="../images/462565011_921202379978554_3512180108067021761_n.jpg">
+                <img src="../images/462579979_616489577400130_3566658218055888835_n.jpg">
+                <img src="../images/462582284_856301153094159_3298064347824343594_n.jpg">
+                <img src="../images/blade-runner-2nd-attempt.png">
+                <img src="../images/462585087_1094475635247202_3218492982026955886_n.jpg"">
+                <img src="../images/462583479_1757399885043353_6124508866805030760_n.jpg">
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <div class="social-link">
+                        <a href="https://facebook.com/marydesiriejose" target="_blank">
+                            <img src="../images/pngwing.com.png" alt="Facebook">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://instagram.com/marydesiriejose" target="_blank">
+                            <img src="../images/vecteezy_instagram-logo-png-instagram-icon-transparent_18930692.png"
+                                alt="Instagram">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://x.com/marydesiriejose" target="_blank">
+                            <img src="../images/twitter-x-logo-42554.png" alt="X">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                </div>
+
+                <form class="feedback-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <textarea name="feedback" rows="2" placeholder="Leave a comment..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="footer-text">© 2024 Mary Desirie Jose. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+
+</html>

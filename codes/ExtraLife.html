@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life Outside Art</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #FFD8E4, #FFE6ED, #FFF2F6, #FFFFFF);
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #f0f0f0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        header a:hover {
+            color: #f07aa5;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        section h2 {
+            font-size: 28px;
+            color: hwb(0 20% 80%);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            text-align: justify;
+            font-size: 18px;
+            margin: 0 auto 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffe6ed;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-links a img {
+            width: 40px;
+            height: 40px;
+            border-radius: 20%;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a img:hover {
+            transform: scale(1.1);
+        }
+
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .feedback-form input[type="text"],
+        .feedback-form textarea {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #f07aa5;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .feedback-form button:hover {
+            background-color: #d3698f;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><strong>DESI</strong></div>
+
+            <nav>
+                <a href="Profile.html">About Me</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="services.html">Services</a>
+                <a href="ExtraLife.html">My Life</a>
+            </nav>
+        </header>
+
+        <section id="chess">
+            <h2>Chess</h2>
+            <p>Chess has always been a part of my life, helping me sharpen my strategic thinking and patience. As a
+                varsity player, I’ve learned to approach challenges with focus and determination, both on and off the
+                board.</p>
+            <div class="gallery">
+                <img src="../images/462581636_1334317697729693_6027381685383047403_n.jpg" alt="Chess 1">
+                <img src="../images/462584158_558461796969181_7449591959389647600_n.jpg" alt="Chess 2">
+                <img src="../images/379589418_692528049054797_6913102525302067535_n.jpg" alt="Chess 3">
+            </div>
+        </section>
+
+        <section id="cheerleading">
+            <h2>Cheerleading</h2>
+            <p>Being a cheerleader allows me to channel my energy and creativity into exciting routines. It’s a
+                team-driven activity that’s taught me discipline, coordination, and how to lift others’ spirits.</p>
+            <div class="gallery">
+                <img src="../images/462565543_1088036152729975_7162649170585861308_n.jpg"
+                    alt="Cheerleading 1">
+                <img src="../images/466892421_1003971018417226_591063840412786577_n.jpg"
+                    alt="Cheerleading 2">
+                <img src="../images/462581311_1230659911341235_5720708807015256346_n.jpg"
+                    alt="Cheerleading 3">
+            </div>
+        </section>
+
+        <section id="dogs">
+            <h2>Dogs</h2>
+            <p>I’m a huge dog lover! My furry friends bring so much joy and unconditional love to my life. They inspire
+                me to embrace life with loyalty, playfulness, and boundless energy.</p>
+            <div class="gallery">
+                <img src="../images/462572088_616600471021420_2680546514484226965_n.jpg" alt="Dog 1">
+                <img src="../images/462584549_550829464431111_1148125773823608541_n.jpg" alt="Dog 2">
+                <img src="../images/462578145_1044437567453053_3996052461854308948_n.jpg" alt="Dog 3">
+            </div>
+        </section>
+
+        <section id="nature">
+            <h2>Nature</h2>
+            <p>Nature is my ultimate escape. Whether hiking in the mountains or relaxing by the sea, it’s where I find
+                inspiration, peace, and a renewed connection to the world around me.</p>
+            <div class="gallery">
+                <img src="../images/462744277_1645338886078219_562313211785599979_n.jpg" alt="Nature 1">
+                <img src="../images/1153ca50-1ad1-4a2b-8c2f-4d15ea551edd.jpg" alt="Nature 2">
+                <img src="../images/9797de1c-356a-4479-bf28-39708bba4214.jpg" alt="Nature 3">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <div class="social-link">
+                        <a href="https://facebook.com/marydesiriejose" target="_blank">
+                            <img src="../images/pngwing.com.png" alt="Facebook">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://instagram.com/marydesiriejose" target="_blank">
+                            <img src="../images/vecteezy_instagram-logo-png-instagram-icon-transparent_18930692.png"
+                                alt="Instagram">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://x.com/marydesiriejose" target="_blank">
+                            <img src="../images/twitter-x-logo-42554.png" alt="X">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                </div>
+
+                <form class="feedback-form" action="" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="feedback" rows="2" placeholder="Leave a comment..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </div>
+            <div class="footer-text">© 2024 Mary Desirie Jose. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+
+</html>

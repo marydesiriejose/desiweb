@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Desi's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #FFD8E4, #FFE6ED, #FFF2F6, #FFFFFF);
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        header a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        header a:hover {
+            color: #f07aa5;
+        }
+
+        .services-section {
+            padding: 40px 20px;
+        }
+
+        .services-section h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: hwb(0 20% 80%);
+        }
+
+        .service-card {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-right: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffe6ed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-links a img {
+            width: 40px;
+            height: 40px;
+            border-radius: 20%;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a img:hover {
+            transform: scale(1.1);
+        }
+
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .feedback-form input[type="text"],
+        .feedback-form textarea {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #f07aa5;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .feedback-form button:hover {
+            background-color: #d3698f;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><strong>DESI</strong></div>
+
+            <nav>
+                <a href="Profile.html">About Me</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="services.html">Services</a>
+                <a href="ExtraLife.html">My Life</a>
+            </nav>
+        </header>
+
+        <div class="services-section">
+            <h2>Services I Offer</h2>
+
+            <div class="service-card">
+                <img src="../images/467430059_877861011211647_6228021710126569648_n.jpg">
+                <div>
+                    <h3>Cake Design</h3>
+                    <p>
+                        I create custom-designed cakes that are as beautiful as they are delicious. From intricate
+                        details to unique themes, I integrate artistry into every creation, making your special
+                        occasions unforgettable.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="../images/Northwestern Mindanao State College of Science and Technology.png">
+                <div>
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Bring your ideas to life with eye-catching graphic designs. From branding materials to digital
+                        art, I craft visually compelling designs tailored to your needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="../images/462583470_894456632801846_1496773632301558510_n.jpg">
+                <div>
+                    <h3>Painting</h3>
+                    <p>
+                        Explore the world of colors and creativity through my painting services. Whether it’s a custom
+                        portrait, abstract art, or mural work, I turn visions into vibrant masterpieces.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <div class="social-link">
+                        <a href="https://facebook.com/marydesiriejose" target="_blank">
+                            <img src="../images/pngwing.com.png"../images/ alt="Facebook">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://instagram.com/marydesiriejose" target="_blank">
+                            <img src="../images/vecteezy_instagram-logo-png-instagram-icon-transparent_18930692.png"
+                                alt="Instagram">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://x.com/marydesiriejose" target="_blank">
+                            <img src="../images/twitter-x-logo-42554.png" alt="Twitter">
+                        </a>
+                        <span>@marydesiriejose</span>
+                    </div>
+                </div>
+
+                <form class="feedback-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <textarea name="feedback" rows="2" placeholder="Leave a comment..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="footer-text">© 2024 Mary Desirie Jose. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+
+</html>
